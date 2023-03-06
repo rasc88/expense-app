@@ -1,0 +1,32 @@
+.expense-form {
+  &__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    text-align: left;
+  }
+
+  &__label {
+    margin-bottom: 0.5rem;
+    display: block;
+
+    font-weight: bold;
+  }
+
+  &__input {
+    padding: 0.5rem;
+    width: 20rem;
+    max-width: 100%;
+
+    font: inherit;
+
+    border-radius: 0.25rem;
+    border: 0.025rem solid #8d8d8d;
+  }
+
+  &__actions {
+    text-align: right;
+  }
+}

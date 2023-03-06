@@ -1,0 +1,11 @@
+.card-widget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: white;
+
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.25rem;
+}
